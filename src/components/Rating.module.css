@@ -1,0 +1,90 @@
+@import '../vars.css';
+
+.panel {
+    color: #ffffff;
+    background: #1e242e;
+    padding: 40px;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    text-align: left;
+}
+
+.thank-you-panel {
+    color: #ffffff;
+    background: #1e242e;
+    padding: 40px;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.selected {
+    color: var(--primary);
+    background: #2e343e;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    border-radius: 40px;
+    display: inline-block;
+}
+
+.star {
+    background: #272e3f;
+    border-radius: 100%;
+    padding: 10px;
+
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+.description {
+    color: #8e949e;
+    font-size: 13px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.rating {
+    color: #ffffff;
+    background: #282e38;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.rating:hover {
+    background: #7d8796;
+}
+
+.rating:focus {
+    background: var(--primary);
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+    color: white;
+    background: var(--primary);
+}
+
+.submit:hover {
+    background: white;
+    color: var(--primary);
+}
+
+.text-left {
+    text-align: left;
+}
